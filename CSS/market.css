@@ -1,0 +1,65 @@
+#nav-menu
+{
+	position:fixed;
+	bottom:4%;
+	width:50%;
+	height:15%;
+	background-color:rgba(1,190,200,0.6);
+	padding: 0px;
+	box-sizing: border-box;
+	align-items: center;
+	border-radius:0 25px 25px 0;
+}
+
+	.clearfix::after
+	{
+		content:" ";
+		display:block;
+		clear:both;
+	}
+
+#logo
+{
+	width:15%;
+	height:100%;
+	float:left;
+}
+#logo a img
+{
+	height:100%;
+	
+	padding:0;
+}
+
+#fixed-button
+{
+		width:80%;
+		line-height:60px;
+		margin-right:5%;
+		padding:0;
+		float:right;
+
+}
+
+#fixed-button table
+{
+	margin-top:2%;
+}
+
+#fixed-button table tr
+{
+	width:10%;	
+	margin:0;
+	padding:0;
+	 
+}
+
+#fixed-button table tr td
+{
+	width:5%;
+
+	text-align:center;
+	background-color:rgba(0,0,0,0.95	);
+	border-radius:25px 25px 25px 25px;
+	
+}
